@@ -1,5 +1,3 @@
-# Welcome to Combinatorial Testing Competition (tentative - draft)
-
 ## Objective
 
 The area of Combinatorial Interaction testing has seen tremendous progress over the last years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on. 
