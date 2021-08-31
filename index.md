@@ -4,8 +4,8 @@
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases: 
-- a **training phase**, in which example benchmarks are given to the tool developers, 
-- and an **evaluation** phase, in which all participating ct tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before?) and presented during the IWCT workshop.
+- a **training phase**, in which example benchmarks are given to the tool developers, (strarting from OCt 2021 ?)
+- and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before?) and presented during the IWCT workshop.
 
 ### Tools evaluation
 
@@ -47,3 +47,9 @@ Having fixed the *timeout*, some tools may non complete the computation of the t
 Participants can submit a paper presenting a new CIT generator tool or an already existing one. 
 If a new tool (or an extension) is presented, the authors should present a paper describing the tool and the performance obtained with the models given as example by the competition organizers (max. 8 pages including references).
 If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as example by the competition organizers (max. 2 pages including references).
+
+## Important Dates
+- mid October 2021, release of the beanchmarks for training 
+- beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
+- April 2022, competition with new benchamrks and comparison among all the accepted tools
+
