@@ -17,7 +17,7 @@ Each tool will be evaluated by considering:
 
 Note that the test suite validity and completeness will be mandatory for the evaluation of the tool: a tool producing an invalid or a non complete test suite will be excluded from the competition. (or only the test suite which is invalid or incomplete?)
 
-### Catergories
+### Categories
 Different generators can compete in different categories, and the participants may choose the category in which the tool competes. We identify the following categories:
 - Models containing only boolean parameters
 - Models containing enumerative parameters
@@ -49,9 +49,9 @@ If a new tool (or an extension) is presented, the authors should present a paper
 If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as example by the competition organizers (short paper).
 
 ## Important Dates
-- mid October 2021, release of the beanchmarks for training 
+- mid October 2021, release of the benchmarks for training 
 - beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
-- April 2022, competition with new benchamrks and comparison among all the accepted tools
+- April 2022, competition with new benchmarks and comparison among all the accepted tools
 
 ### Jury
 - ....
