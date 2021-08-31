@@ -1,11 +1,19 @@
 # Welcome to Combinatorial Testing Competition (tentative - draft)
 
+## Objective
+
+The area of Combinatorial Interaction testing has seen tremendous progress over the last years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on. 
+With this competition, we want to motivate implementors to present their work to a broader audience and to compare it with that of others.
+
+
 ## Call for Participation — Procedure
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases: 
 - a **training phase**, in which example benchmarks are given to the tool developers, (strarting from OCt 2021 ?)
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before?) and presented during the IWCT workshop.
+
+Researchers from both academia and industry are invited to submit their tools.
 
 ### Tools evaluation
 
@@ -17,7 +25,8 @@ Each tool will be evaluated by considering:
 
 Note that the test suite validity and completeness will be mandatory for the evaluation of the tool: a tool producing an invalid or a non complete test suite will be excluded from the competition. (or only the test suite which is invalid or incomplete?)
 
-### Categories
+### Categories/Tracks
+
 Different generators can compete in different categories, and the participants may choose the category in which the tool competes. We identify the following categories:
 - Models containing only boolean parameters
 - Models containing enumerative parameters
@@ -53,6 +62,6 @@ If an already existing tool is presented, the authors should present a paper int
 - beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
 - April 2022, competition with new benchmarks and comparison among all the accepted tools
 
-### Jury
+### Organization
 - ....
 
