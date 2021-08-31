@@ -53,3 +53,6 @@ If an already existing tool is presented, the authors should present a paper int
 - beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
 - April 2022, competition with new benchamrks and comparison among all the accepted tools
 
+### Jury
+- ....
+
