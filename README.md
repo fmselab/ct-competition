@@ -1,2 +1,2 @@
 # ct-competition
-web site for combinatorial interaction  testing competition
+Welcome to Combinatorial Testing Competition (tentative - draft)
