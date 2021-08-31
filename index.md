@@ -5,7 +5,7 @@
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases: 
 - a **training phase**, in which example benchmarks are given to the tool developers, 
-- and an **evaluation** phase, in which all participating ct tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before?) and presented during the IWCT workshop
+- and an **evaluation** phase, in which all participating ct tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before?) and presented during the IWCT workshop.
 
 ### Tools evaluation
 
