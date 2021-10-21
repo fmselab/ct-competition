@@ -67,7 +67,7 @@ The tools will be ranked
 - For the total time, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
-Having fixed the *timeout*, some tools may non complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y and the greatest size for Y will be assigned to X.
+Having fixed the *timeout*, some tools may non complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
 ## Publication and Presentation of the Competition Candidates
 
