@@ -49,8 +49,11 @@ Generators will be executed, inside a *docker* provided by the competition organ
 - OS: Ubuntu 18.04.6 LTS
 
 The results (size, generation time, completeness and validity) will be gathered through the generation of test suites from 50 test models for each category, randomly generated (TODO: some distribution to be discussed about size ...).
+
 All the tools must be invoked as in the following:
+```
     tool n-wise modelFileName
+```
 
 The test model will be processed with a maximum execution time of 120 seconds each. 
 The tools will be ranked
