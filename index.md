@@ -32,16 +32,22 @@ However, the random generation will be guided by setting the number of variables
 ### Categories/Tracks
 
 Different generators can compete in different categories, and the participants may choose the category in which the tool competes (depending on the capabilities of the tool). We identify the following categories:
-<!---
+
+[comment]: # (
 - Models containing only boolean parameters
 - Models containing enumerative parameters
 - Models containing integer parameters
 - Models containing relational operators in the constraints (with or without arithmetical operations)
--->
+)
+
 - Models with no constraints
   - With only boolean parameters
   - MCA
   - Uniform with n > 2
+- Models containing constraints
+  - With boolean parameters and logical operators in constraints
+  - With also enumerative parameters (MCA), and logical and equal operators in constraints
+  - With also integer parameters, and logical, mathematical and relational operators in constraints
 
 ### Input and output formats
 
