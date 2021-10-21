@@ -38,7 +38,7 @@ Different generators can compete in different categories, and the participants m
 
 ### Input and output formats
 
-The benchmark models will be distributed in the CTWedge format (and others?). The tools must produce as output a file with the following format (TODO)
+The benchmark models will be distributed in the CTWedge and ACTS formats. The tools must produce as output a file with the following format (TODO)
 
 ### Tool execution
 
