@@ -23,6 +23,11 @@ Each tool will be evaluated by considering:
 
 Note that the test suite validity and completeness will be mandatory for the evaluation of the tool: an invalid or non complete test suite produced for a model will be marked as not correct and its score will be considered null.
 
+### Benchmarks characteristics
+
+*Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints.
+However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and charateristics of constraints (like depth of logical operators, type of operators, ...). 
+
 ### Categories/Tracks
 
 Different generators can compete in different categories, and the participants may choose the category in which the tool competes. We identify the following categories:
