@@ -12,6 +12,7 @@ The competition consists of two phases:
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
+*In order to easily include in the competition both open source and commercial tools, participants have to submit only the executable and no submission of the source code is required.*
 
 ### Tools evaluation
 
@@ -50,9 +51,9 @@ Generators will be executed, inside a *docker* provided by the competition organ
 
 The results (size, generation time, completeness and validity) will be gathered through the generation of test suites from 50 test models for each category, randomly generated (TODO: some distribution to be discussed about size ...).
 
-All the tools must be invoked as in the following:
+All the tools must be **compiled for Linux** and be invoked as in the following:
 ```
-    tool n-wise modelFileName
+toolExecutable n-wise modelFileName
 ```
 
 The test model will be processed with a maximum execution time of 120 seconds each. 
