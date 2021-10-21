@@ -8,8 +8,8 @@ With this competition, we want to motivate implementors to present their work to
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases: 
-- a **training phase**, in which example benchmarks are given to the tool developers, (strarting from OCt 2021 ?)
-- and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before?) and presented during the IWCT workshop.
+- a **training phase**, in which example benchmarks are given to the tool developers (strarting from mid Nov 2021)
+- and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
 
@@ -58,8 +58,6 @@ Supposing that there will be n tools competing, the first tool in the rank will 
 
 Having fixed the *timeout*, some tools may non complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y and the greatest size for Y will be assigned to X.
 
-
-
 ## Publication and Presentation of the Competition Candidates
 
 Participants can submit a paper presenting a new CIT generator tool or an already existing one. 
@@ -67,8 +65,8 @@ If a new tool (or an extension) is presented, the authors should present a paper
 If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as example by the competition organizers (short paper).
 
 ## Important Dates
-- mid October 2021, release of the benchmarks for training 
-- beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
+- Mid November 2021, release of the benchmarks for training 
+- Beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
 - April 2022, competition with new benchmarks and comparison among all the accepted tools
 
 ### Organization
