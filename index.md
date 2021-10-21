@@ -21,7 +21,7 @@ Each tool will be evaluated by considering:
 - Test suite generation time (50% of the final score)
 - Test suite completeness and validity (required)
 
-Note that the test suite validity and completeness will be mandatory for the evaluation of the tool: a tool producing an invalid or a non complete test suite will be excluded from the competition. (or only the test suite which is invalid or incomplete?)
+Note that the test suite validity and completeness will be mandatory for the evaluation of the tool: an invalid or non complete test suite produced for a model will be marked as not correct and its score will be considered null.
 
 ### Categories/Tracks
 
