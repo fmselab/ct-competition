@@ -39,6 +39,7 @@ During tools evaluation, test models will be distributed as in the following tab
 | UNIFORM | Only booleans | NO | n: number of parameters | n: random in the interval \[2, 20\] | 25 |
 | UNIFORM | Uniform | NO | n: number of parameters<br /> m: number of elements for each parameter | n: random in the interval \[2, 20\]<br /> m: random in the interval \[2, 20] | 25 |
 | MCA | MCA | NO | n: number of parameters<br /> m\[\]: array containing the number of elements for each parameter | n: random in the interval \[2, 20\]<br /> each element of m\[\]: random in the interval \[1,50\] | 50 |
+| BOOLC | Only booleans | Randomly chosen with AND, OR, <=>, NOT, => | n: number of parameters<br /> c: number of constraints<br />k\[\]: array containing the complexity of each of the c constraints | n: random in the interval \[2, 20\]<br /> c: random in the interval \[1, 100\]<br /> each element of k: random in the interval \[1, 20\] | 50 |
 
 ### Input and output formats
 
