@@ -34,6 +34,11 @@ Different generators can compete in different categories, and the participants m
 
 During tools evaluation, test models will be distributed as in the following table:
 
+| **Category Name** | **Parameters** | **Constraints** | **Control variables** | **Boundaries** | **# Tests** |
+|-------------------|----------------|-----------------|-----------------------|----------------|-------------|
+| UNIFORM | Only booleans | NO | n: number of parameters | n: random in the interval \[2, 20\] | 25 |
+| UNIFORM | Uniform with m > 2 | NO | n: number of parameters | n: random in the interval \[2, 20\], m: random in the interval \[2, 20] | 25 |
+
 |                      | **Only Boolean**                | **MCA**                               | **Uniform with n>2**                                         |
 |----------------------|---------------------------------|---------------------------------------|--------------------------------------------------------------|
 | **No constraints**   |                                 |                                       |                                                              |
