@@ -42,6 +42,12 @@ Different generators can compete in different categories, and the participants m
   - With also enumerative parameters (MCA), and logical and equal operators in constraints
   - With also integer parameters, and logical, mathematical and relational operators in constraints
 
+|                  | **Only Boolean**                | **MCA**                               | **Uniform with n>2**                                         |
+|------------------|---------------------------------|---------------------------------------|--------------------------------------------------------------|
+| No constraints   |                                 |                                       |                                                              |
+|                  | **Boolean + Logical Operators** | **MCA + Logical and Equal Operators** | **Integer + Logical, Mathematical and Relational Operators** |
+| With constraints |                                 |                                       |                                                              |
+
 ### Input and output formats
 
 The benchmark models will be distributed in the CTWedge and ACTS formats. The tools must produce as output a file in **csv** format.
