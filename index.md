@@ -42,6 +42,8 @@ Different generators can compete in different categories, and the participants m
   - With also enumerative parameters (MCA), and logical and equal operators in constraints
   - With also integer parameters, and logical, mathematical and relational operators in constraints
 
+During tool evaluations, test models will be distributed as in the following table:
+
 |                      | **Only Boolean**                | **MCA**                               | **Uniform with n>2**                                         |
 |----------------------|---------------------------------|---------------------------------------|--------------------------------------------------------------|
 | **No constraints**   |                                 |                                       |                                                              |
