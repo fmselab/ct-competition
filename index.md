@@ -14,16 +14,6 @@ The competition consists of two phases:
 Researchers from both academia and industry are invited to submit their tools.
 *In order to easily include in the competition both open source and commercial tools, participants have to submit only the executable and no submission of the source code is required.*
 
-### Tools evaluation
-
-Each tool will be evaluated by considering: 
-
-- Test suite size (50% of the final score)
-- Test suite generation time (50% of the final score)
-- Test suite completeness and validity (required)
-
-Note that the test suite validity and completeness will be mandatory for the evaluation of the tool: an invalid or non complete test suite produced for a model will be marked as not correct and its score will be considered null.
-
 ### Benchmarks characteristics
 
 *Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints.
@@ -71,6 +61,17 @@ toolExecutable n-wise modelFileName
 ```
 
 The test model will be processed with a maximum execution time of 120 seconds each. 
+
+### Tools evaluation
+
+Each tool will be evaluated by considering: 
+
+- Test suite size (50% of the final score)
+- Test suite generation time (50% of the final score)
+- Test suite completeness and validity (required for all the test suites)
+
+Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or non complete test suite produced for a model will be marked as not correct and its score will be considered equals to the lower one obtained by other tools - 1.
+
 The tools will be ranked
 - For the total size of the test suites, in a decreasing order
 - For the total time, in an increasing order
