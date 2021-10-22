@@ -37,14 +37,8 @@ During tools evaluation, test models will be distributed as in the following tab
 | **Category Name** | **Parameters** | **Constraints** | **Control variables** | **Boundaries** | **# Tests** |
 |-------------------|----------------|-----------------|-----------------------|----------------|-------------|
 | UNIFORM | Only booleans | NO | n: number of parameters | n: random in the interval \[2, 20\] | 25 |
-| UNIFORM | Uniform with m > 2 | NO | n: number of parameters | n: random in the interval \[2, 20\], m: random in the interval \[2, 20] | 25 |
-
-|                      | **Only Boolean**                | **MCA**                               | **Uniform with n>2**                                         |
-|----------------------|---------------------------------|---------------------------------------|--------------------------------------------------------------|
-| **No constraints**   |                                 |                                       |                                                              |
-|                      | **Boolean + Logical Operators** | **MCA + Logical and Equal Operators** | **Integer + Logical, Mathematical and Relational Operators** |
-|----------------------|---------------------------------|---------------------------------------|--------------------------------------------------------------|
-| **With constraints** |                                 |                                       |                                                              |
+| UNIFORM | Uniform | NO | n: number of parameters, m: number of elements for each parameter | n: random in the interval \[2, 20\], m: random in the interval \[2, 20] | 25 |
+| MCA | MCA | NO | n: number of parameters, m\[\]: array containing the number of elements for each parameter | n: random in the interval \[2, 20\], each element of m\[\]: random in the interval \[1,50\] |
 
 ### Input and output formats
 
