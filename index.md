@@ -72,7 +72,7 @@ Each tool will be evaluated by considering:
 - Test suite generation time (50% of the final score)
 - Test suite completeness and validity (required for all the test suites)
 
-Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or non complete test suite produced for a model will be marked as not correct and its score will be considered equals to the lower one obtained by other tools - 1.
+Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or non complete test suite produced for a model will be marked as not correct and its score will be considered like the tool has been unable to complete the generation of the test suite for that model.
 
 The tools will be ranked
 - For the total size of the test suites, in a decreasing order
