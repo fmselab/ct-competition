@@ -8,7 +8,7 @@ With this competition, we want to motivate implementors to present their work to
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases: 
-- a **training phase**, in which example benchmarks are given to the tool developers (strarting from mid Nov 2021)
+- a **training phase**, in which example benchmarks are given to the tool developers (starting from mid-Nov 2021)
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
@@ -17,7 +17,7 @@ Researchers from both academia and industry are invited to submit their tools.
 ### Benchmarks characteristics
 
 *Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints.
-However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and charateristics of constraints (like depth of logical operators, type of operators, ...). 
+However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and characteristics of constraints (like depth of logical operators, type of operators, ...). 
 
 ### Categories/Tracks
 
@@ -30,22 +30,22 @@ Different generators can compete in different categories, and the participants m
 - Models containing constraints
   - With boolean parameters and logical operators in constraints
   - With also enumerative parameters (MCA), and logical and equal operators in constraints
-  - With also integer parameters, and logical, mathematical and relational operators in constraints
+  - With also integer parameters, and logical, mathematical, and relational operators in constraints
 
 During tools evaluation, test models will be distributed as in the following table:
 
 | **Category Name** | **Parameters** | **Constraints** | **Control variables** | **Boundaries** | **# Tests** |
 |:---|:---|:---|:---|:---|:---|
-| `UNIFORM` | Only booleans | NO | *n*: number of parameters | *n*: random in the interval \[2, 20\] | 25 |
-| `UNIFORM` | Uniform | NO | *n*: number of parameters<br /><br /> *m*: number of elements for each parameter | *n*: random in the interval \[2, 20\]<br /><br /> *m*: random in the interval \[2, 20] | 25 |
-| `MCA` | MCA | NO | *n*: number of parameters<br /><br /> *m\[\]*: array containing the number of elements for each parameter | *n*: random in the interval \[2, 20\]<br /><br /> each element of *m\[\]*: random in the interval \[1,50\] | 50 |
-| `BOOLC` | Only booleans | randomly chosen between AND, OR, <=>, NOT, => | *n*: number of parameters<br /><br /> *c*: number of constraints<br /><br />*k\[\]*: array containing the complexity of each of the *c* constraints | *n*: random in the interval \[2, 20\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *k\[\]*: random in the interval \[1, 20\] | 50 |
-| `MCAC` | MCA | randomly chosen between AND, OR, <=>, NOT, =>, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), != |  *n*: number of parameters<br /><br /> *m\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*k\[\]*: array containing the complexity of each of the *c* constraints | *n*: random in the interval \[2, 20\]<br /><br /> each element of *m\[\]*: random in the interval \[1,50\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *k\[\]*: random in the interval \[1, 20\] | 50 |
-| `NUMC` | Booleans, Enumeratives and Integer ranges | randomly chosen between AND, OR, <=>, NOT, =>, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), !=, mathematical and relational operators | *n*: number of parameters<br /><br /> *m\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*k\[\]*: array containing the complexity of each of the *c* constraints | *n*: random in the interval \[2, 20\]<br /><br /> each element of *m\[\]*: random in the interval \[1,50\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *k\[\]*: random in the interval \[1, 20\] | 50 |
+| `UNIFORM` | Only booleans | NO | *k*: number of parameters | *k*: random in the interval \[2, 20\] | 25 |
+| `UNIFORM` | Uniform | NO | *k*: number of parameters<br /><br /> *v*: number of elements for each parameter | *k*: random in the interval \[2, 20\]<br /><br /> *v*: random in the interval \[2, 20] | 25 |
+| `MCA` | MCA | NO | *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter | *k*: random in the interval \[2, 20\]<br /><br /> each element of *v\[\]*: random in the interval \[2,20\] | 50 |
+| `BOOLC` | Only booleans | randomly chosen between AND, OR, <=>, NOT, => | *k*: number of parameters<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[2, 20\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 50 |
+| `MCAC` | MCA | randomly chosen between AND, OR, <=>, NOT, =>, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), != |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[2, 20\]<br /><br /> each element of *v\[\]*: random in the interval \[2,20\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 50 |
+| `NUMC` | Booleans, Enumeratives and Integer ranges | randomly chosen between AND, OR, <=>, NOT, =>, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), !=, mathematical and relational operators | *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[2, 20\]<br /><br /> each element of *v\[\]*: random in the interval \[2,20\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 50 |
 
 ### Input and output formats
 
-The benchmark models will be distributed in the CTWedge and ACTS formats. The tools must produce as output a file in **csv** format.
+The benchmark models will be distributed in the CTWedge and ACTS formats. The tools must be able to process models in one ofthe two input files (in the submission it must say which one) and produce as output a file in **csv** format. Examples of the inputs and outputs can be found [here](https://fmselab.github.io/ct-competition/examples.html)
 
 ### Tool execution
 
@@ -55,14 +55,15 @@ Generators will be executed, inside a *docker* provided by the competition organ
 - 2xSSD Samsung 850 (256GB each) in RAID1
 - OS: Ubuntu 18.04.6 LTS
 
-The results (size, generation time, completeness and validity) will be gathered through the generation of test suites from 50 test models for each category, randomly generated (TODO: some distribution to be discussed about size ...).
+The results (size, generation time, completeness, and validity) will be gathered through the generation of test suites from 50 test models for each category, randomly generated.
 
 All the tools must be **compiled for Linux** and be invoked as in the following:
 ```
 toolExecutable n-wise modelFileName
 ```
+The test model will be processed with a maximum execution time of 300 seconds each. 
 
-The test model will be processed with a maximum execution time of 120 seconds each. 
+To execute the tool we use a docker-composed image (details will follow). No Internet connection can be used. 
 
 ### Tools evaluation
 
@@ -72,29 +73,37 @@ Each tool will be evaluated by considering:
 - Test suite generation time (50% of the final score)
 - Test suite completeness and validity (required for all the test suites)
 
-Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or non complete test suite produced for a model will be marked as not correct and its score will be considered like the tool has been unable to complete the generation of the test suite for that model.
+Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or incomplete test suite produced for a model will be marked as not correct and its score will be considered like the tool has been unable to complete the generation of the test suite for that model.
 
 The tools will be ranked
 - For the total size of the test suites, in a decreasing order
 - For the total time, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
-Having fixed the *timeout*, some tools may non complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
+Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
+
+For the strength, we will execute the tool with **n-wise** starting from 2 to maximum *k-1* (still to be decided, probably only a subset). 
+
+If no tool will complete for a given strength a given model, that strength and model will be skipped in the evaluation.
 
 ## Publication and Presentation of the Competition Candidates
 
 Participants can submit a paper presenting a new CIT generator tool or an already existing one. 
-If a new tool (or an extension) is presented, the authors should present a paper describing the tool and the performance obtained with the models given as example by the competition organizers (as full or short paper).
-If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as example by the competition organizers (short paper).
+If a new tool (or an extension) is presented, the authors should present a paper describing the tool and the performance obtained with the models given as examples by the competition organizers (as full or short paper).
+If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper).
 
 ## Important Dates
-- Mid November 2021, release of the benchmarks for training 
+- Mid-November 2021, the release of the benchmarks for training 
 - Beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
 - April 2022, competition with new benchmarks and comparison among all the accepted tools
 
 ### Organization
-- ....
+
+If you want to know more, or need clarification, do not hesitate to contact us:
+
+- For the University of Bergamo, Andrea Bombarda <andrea.bombarda@unibg.it>
+- for SBA Research, Michael Wagner <MWagner@sba-research.org>
 
 ### Sponsors/prize
 
-
+If you are interested to support the competition, please contact us.
