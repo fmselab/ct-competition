@@ -61,7 +61,7 @@ All the tools must be **compiled for Linux** and be invoked as in the following:
 ```
 toolExecutable n-wise modelFileName
 ```
-The test model will be processed with a maximum execution time of 300 seconds each. 
+The test model will be processed with a maximum execution time of 300 seconds each. Note that multiple executions for the same test model (details about the number of executions will follow) will be done, and the considered result will be the one of the fastest execution.
 
 To execute the tool we use a docker-composed image (details will follow). No Internet connection can be used. 
 
