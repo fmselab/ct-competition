@@ -21,7 +21,6 @@ Constraints:
 	# ( p3!=v1 OR p4!=true) #
 ```
 ### ACTS input example ###
-### CTWEDGE input example ###
 ```
 [System]
 -- specify system name
@@ -48,7 +47,6 @@ p5 (boolean) : true, false
 ((p4)||((p3)!=("v2")))||((p1)!=("v1"))
 ((p4)!=(true))||((p1)!=("v2"))
 ((p3)!=("v1"))||((p4)!=(true))
-### CTWEDGE input example ###
 ```
 ### Csv output example ###
 
