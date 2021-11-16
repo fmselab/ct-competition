@@ -49,5 +49,13 @@ p5 (boolean) : true, false
 ((p3)!=("v1"))||((p4)!=(true))
 ```
 ### Csv output example ###
-
+```
+p1,p2,p3,p4,p5
+v1,v1,v2,true,true
+v1,v2,v1,false,false
+v2,v1,v1,false,false
+v2,v2,v2,false,false
+v1,v2,v2,true,false
+v1,v1,v1,false,true
+```
 ## CTWedge grammar  ##
