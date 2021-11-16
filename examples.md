@@ -49,6 +49,7 @@ p5 (boolean) : true, false
 ((p3)!=("v1"))||((p4)!=(true))
 ```
 ### Csv output example ###
+The csv file should contain in the first line the header with the names of the parameters.
 ```
 p1,p2,p3,p4,p5
 v1,v1,v2,true,true
