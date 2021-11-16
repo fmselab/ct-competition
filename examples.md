@@ -1,4 +1,5 @@
 ## Examples  ##
+In this page you can find examples of the input and output formats that have to be supported by the tools wanting to compete in the CT competition.
 
 ### CTWEDGE input example ###
 ```
