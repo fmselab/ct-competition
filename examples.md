@@ -1,7 +1,13 @@
 ## Examples  ##
+
 In this page you can find examples of the input and output formats that have to be supported by the tools wanting to compete in the CT competition.
 
-### CTWEDGE input example ###
+### CTWedge input example ###
+
+A more detailed description of the CTWedge input format will follow shortly.
+
+In the meantime, please see [the CTWedge paper](http://cs.unibg.it/gargantini/research/papers/ctwedge2018.pdf) and the examples provided at [the CTWedge site](https://foselab.unibg.it/ctwedge/).
+
 ```
 Model Concurrency
 
@@ -22,6 +28,9 @@ Constraints:
 	# ( p3!=v1 OR p4!=true) #
 ```
 ### ACTS input example ###
+
+The ACTS input format is described in [the ACTS User Guide](https://csrc.nist.gov/CSRC/media/Projects/Automated-Combinatorial-Testing-for-Software/documents/acts_user_guide_2_92.pdf). Please note that the input files generated for this competition do not use the [Relations] or [Test Set] sections; the former would only be relevant for variable strength covering arrays (VCAs), while the latter would only be useful for extending existing test sets.
+
 ```
 [System]
 -- specify system name
@@ -45,8 +54,13 @@ p5 (boolean) : true, false
 ((p4)!=(true))||((p1)!=("v2"))
 ((p3)!=("v1"))||((p4)!=(true))
 ```
-### Csv output example ###
-The **csv** file should contain in the first line the header with the names of the parameters.
+### CSV output example ###
+
+We expect a CSV file with a header; in other words, the first line should contain the names of the parameters.
+Failure to include the header line will result in the first line not being counted towards coverage.
+
+Do not surround values with quotes or use any separators besides commas. Your CSV file should only contain the literal parameter names and values provided in the input file, commas to separate them (we will never use commas in parameter names or values), and newlines to separate rows (it is irrelevant whether these are Windows or UNIX line separators).
+
 ```
 p1,p2,p3,p4,p5
 v1,v1,v2,true,true
@@ -56,8 +70,3 @@ v2,v2,v2,false,false
 v1,v2,v2,true,false
 v1,v1,v1,false,true
 ```
-## CTWedge grammar  ##
-
-A more detailed description of the CTWedge input format will follow shortly.
-
-In the meantime, please see [the CTWedge paper](http://cs.unibg.it/gargantini/research/papers/ctwedge2018.pdf) and the examples provided at [the CTWedge site](https://foselab.unibg.it/ctwedge/).
