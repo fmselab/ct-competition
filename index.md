@@ -45,11 +45,11 @@ During tools evaluation, test models will be distributed as in the following tab
 
 ### Input and output formats
 
-The benchmark models will be distributed in the CTWedge and ACTS formats. The tools must be able to process models in one ofthe two input files (in the submission it must say which one) and produce as output a file in **csv** format. Examples of the inputs and outputs, together with the full grammar of CTWedge, can be found [here](https://fmselab.github.io/ct-competition/examples.html).
+The benchmark models will be distributed in the CTWedge and ACTS formats. The tools must be able to process models in one of these formats (**you must specify whether your submission supports CTWedge or ACTS**) and produce its output in CSV on the standard output file descriptor (stdout). Examples of the inputs and outputs, together with the full grammar of CTWedge, can be found [here](https://fmselab.github.io/ct-competition/examples.html).
 
 ### Tool execution
 
-Generators will be executed, inside a *docker* provided by the competition organizers, on the same Linux machine with the following specs:
+Generators will be executed inside a Docker container provided by the competition organizers, on the same Linux machine with the following specs:
 - 2 CPUs Intel(R) Xeon(R) E5-2620 v4 @ 2,10 GHz
 - RAM DDR4, 2400 MHz, 4x32 Gb
 - 2xSSD Samsung 850 (256GB each) in RAID1
@@ -57,13 +57,34 @@ Generators will be executed, inside a *docker* provided by the competition organ
 
 The results (size, generation time, completeness, and validity) will be gathered through the generation of test suites from 50 test models for each category, randomly generated.
 
-All the tools must be **compiled for Linux** and be invoked as in the following:
+Your submission will be invoked as follows:
 ```
-toolExecutable n-wise modelFileName
+toolExecutable strength modelFileName
 ```
+For example:
+```
+hyperspeed_ca_generator 4 input.ctwedge
+```
+
 The test model will be processed with a maximum execution time of 300 seconds each. Note that multiple executions for the same test model (details about the number of executions will follow) will be done, and the considered result will be the one of the fastest execution.
 
-To execute the tool we use a docker-composed image (details will follow). No Internet connection can be used. 
+#### Submission format and dependencies
+
+Your submission can be in one of two formats:
+* A Linux (ELF) executable
+* A [docker-compose](https://docs.docker.com/compose/) file that points towards a Docker container provided by you, plus the path to your executable in this container
+
+If you are facing issues with providing any of these formats, please contact the organizers. We are unable to set up custom environments.
+
+If you submit an executable, you must not make any assumptions about libraries or versions thereof available in the Docker container.
+This means that if your submission requires any shared libraries besides libc (e.g. boost or GMP), you should submit a statically linked version (details on this process depend on your compiler and build system).
+
+To work around issues with more complex dependencies (such as Java), you can instead prepare a Docker container, upload it to a repository and submit a docker-compose file along with the path to the executable in the Docker container (if your docker-compose file includes multiple images, please also specify which container holds the executable). We will manually audit submitted docker-compose files.
+
+All invocations of your executable will follow the format described above. This means that if you require additional command line flags (e.g. `java -Xmx 65500 -jar my_ca_generator.jar -Ddoi=5`), you must write a wrapper that takes the arguments described above (strength and input file) and invokes your actual executable.
+
+Regardless of the submission format, your submission **must not** make network connections or execute malicious code.
+Failure to adhere to these conditions will result in immediate disqualification and possibly legal action.
 
 ### Tools evaluation
 
@@ -82,9 +103,9 @@ Supposing that there will be n tools competing, the first tool in the rank will 
 
 Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
-For the strength, we will execute the tool with **n-wise** starting from 2 to maximum *k-1* (still to be decided, probably only a subset). 
+For the strength, we will execute the tool with **strength t** starting from 2 to maximum *k-1* (still to be decided, probably only a subset). 
 
-If no tool will complete for a given strength a given model, that strength and model will be skipped in the evaluation.
+If no tool is able to generate a full covering array for a given strength and model, that strength will be skipped in the evaluation for this model.
 
 ## Publication and Presentation of the Competition Candidates
 
