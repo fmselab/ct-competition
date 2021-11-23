@@ -35,10 +35,6 @@ p3 (enum) : v1, v2
 p4 (boolean) : true, false
 p5 (boolean) : true, false
 
-[Relation]
--- this section is optional
--- general format Rx : (p1, p2, ..., pk, Strength)
-
 [Constraint]
 -- this section is also optional
 (((((p3)!=("v1"))||((p2)!=("v1")))||(p5))||(p4))||((p1)!=("v1"))
@@ -61,3 +57,7 @@ v1,v2,v2,true,false
 v1,v1,v1,false,true
 ```
 ## CTWedge grammar  ##
+
+A more detailed description of the CTWedge input format will follow shortly.
+
+In the meantime, please see [the CTWedge paper](http://cs.unibg.it/gargantini/research/papers/ctwedge2018.pdf) and the examples provided at [the CTWedge site](https://foselab.unibg.it/ctwedge/).
