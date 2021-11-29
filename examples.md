@@ -10,7 +10,7 @@ A detailed description of the CTWedge input format can be found here:
 
 Examples of CTWedge models taken from several papers and case studies can be found here:
 
-[CTWedge wiki grammar](https://github.com/fmselab/ctwedge/tree/master/ctwedge.parent/ctwedge.benchmarks)
+[CTWedge benchmarks](https://github.com/fmselab/ctwedge/tree/master/ctwedge.parent/ctwedge.benchmarks/models_test/ctwedge)
 
 
 An example follows.
