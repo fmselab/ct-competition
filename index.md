@@ -19,7 +19,7 @@ Researchers from both academia and industry are invited to submit their tools.
 *Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints.
 However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and characteristics of constraints (like depth of logical operators, type of operators, ...). 
 
-The code of the benchmark generator is freely available [here](https://github.com/fmselab/CIT_Benchmark_Generator).
+The code of the benchmark generator is available [here](https://github.com/fmselab/CIT_Benchmark_Generator).
 
 ### Categories/Tracks
 
