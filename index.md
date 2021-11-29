@@ -8,7 +8,8 @@ With this competition, we want to motivate implementors to present their work to
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases: 
-- a **training phase**, in which example benchmarks are given to the tool developers (starting from mid-Nov 2021)
+- a **training phase**, in which example benchmarks are given to the tool developers (starting from end-Nov 2021)
+  - the example benchmarks can be found here: [ACTS](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ACTS.zip) or [CTWedge](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/CTWedge.zip)
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
@@ -18,6 +19,8 @@ Researchers from both academia and industry are invited to submit their tools.
 
 *Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints.
 However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and characteristics of constraints (like depth of logical operators, type of operators, ...). 
+
+The code of the benchmark generator is available [here](https://github.com/fmselab/CIT_Benchmark_Generator).
 
 ### Categories/Tracks
 
@@ -114,7 +117,7 @@ If a new tool (or an extension) is presented, the authors should present a paper
 If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper).
 
 ## Important Dates
-- Mid-November 2021, the release of the benchmarks for training 
+- End-November 2021, the release of the benchmarks for training 
 - Beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
 - April 2022, competition with new benchmarks and comparison among all the accepted tools
 
