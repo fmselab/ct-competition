@@ -19,6 +19,8 @@ Researchers from both academia and industry are invited to submit their tools.
 *Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints.
 However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and characteristics of constraints (like depth of logical operators, type of operators, ...). 
 
+The code of the benchmark generator is freely available [here](https://github.com/fmselab/CIT_Benchmark_Generator).
+
 ### Categories/Tracks
 
 Different generators can compete in different categories, and the participants may choose the category in which the tool competes (depending on the capabilities of the tool). We identify the following categories:
@@ -114,7 +116,7 @@ If a new tool (or an extension) is presented, the authors should present a paper
 If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper).
 
 ## Important Dates
-- Mid-November 2021, the release of the benchmarks for training 
+- End-November 2021, the release of the benchmarks for training 
 - Beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
 - April 2022, competition with new benchmarks and comparison among all the accepted tools
 
