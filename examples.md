@@ -4,10 +4,11 @@ In this page you can find examples of the input and output formats that have to 
 
 ### CTWedge input example ###
 
-A more detailed description of the CTWedge input format will follow shortly.
+A detailed description of the CTWedge input format can be found here:
 
-In the meantime, please see [the CTWedge paper](http://cs.unibg.it/gargantini/research/papers/ctwedge2018.pdf) and the examples provided at [the CTWedge site](https://foselab.unibg.it/ctwedge/).
+[CTWedge wiki grammar](https://github.com/fmselab/ctwedge/wiki/Grammar)
 
+An example follows.
 ```
 Model Concurrency
 
