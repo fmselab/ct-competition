@@ -1,15 +1,15 @@
 ## Objective
 
-The area of Combinatorial Interaction testing has seen tremendous progress over the last years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on. 
+The area of Combinatorial Interaction testing has seen tremendous progress over the last years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on.
 With this competition, we want to motivate implementors to present their work to a broader audience and to compare it with that of others.
 
 
 ## Call for Participation — Procedure
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
-The competition consists of two phases: 
+The competition consists of two phases:
 - a **training phase**, in which example benchmarks are given to the tool developers (starting from end-Nov 2021)
-  - the example benchmarks can be found here: [ACTS](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ACTS.zip) or [CTWedge](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/CTWedge.zip)
+  - the example benchmarks can be found here: [ACTS](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ACTS.zip) or [CTWedge](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/CTWedge.zip). Additional benchmarks with constraints (that have been verified and produce not empty test suites) can be found here: ACTS](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ADD_ACTS.zip) or [CTWedge](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ADD_CTWedge.zip).
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
@@ -18,7 +18,7 @@ Researchers from both academia and industry are invited to submit their tools.
 ### Benchmarks characteristics
 
 *Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints.
-However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and characteristics of constraints (like depth of logical operators, type of operators, ...). 
+However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and characteristics of constraints (like depth of logical operators, type of operators, ...).
 
 The code of the benchmark generator is available [here](https://github.com/fmselab/CIT_Benchmark_Generator).
 
@@ -91,7 +91,7 @@ Failure to adhere to these conditions will result in immediate disqualification 
 
 ### Tools evaluation
 
-Each tool will be evaluated by considering: 
+Each tool will be evaluated by considering:
 
 - Test suite size (50% of the final score)
 - Test suite generation time (50% of the final score)
@@ -106,18 +106,18 @@ Supposing that there will be n tools competing, the first tool in the rank will 
 
 Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
-For the strength, we will execute the tool with **strength t** starting from 2 to maximum *k-1* (still to be decided, probably only a subset). 
+For the strength, we will execute the tool with **strength t** starting from 2 to maximum *k-1* (still to be decided, probably only a subset).
 
 If no tool is able to generate a full covering array for a given strength and model, that strength will be skipped in the evaluation for this model.
 
 ## Publication and Presentation of the Competition Candidates
 
-Participants must submit a paper presenting their tool at [IWCT2022](https://icst2022.vrain.upv.es/home/iwct-2022). The paper can present either a new CIT generator tool or an already existing one. 
+Participants must submit a paper presenting their tool at [IWCT2022](https://icst2022.vrain.upv.es/home/iwct-2022). The paper can present either a new CIT generator tool or an already existing one.
 If a new tool (or an extension) is presented, the authors should present a paper describing the tool and the performance obtained with the models given as examples by the competition organizers (as full or short paper).
-If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper). If the paper is accepted, the organizers will contact the authors about how to provide the tool executable that will be run for the competition itself. 
+If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper). If the paper is accepted, the organizers will contact the authors about how to provide the tool executable that will be run for the competition itself.
 
 ## Important Dates
-- End-November 2021, the release of the benchmarks for training 
+- End-November 2021, the release of the benchmarks for training
 - Beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
 - April 2022, competition with new benchmarks and comparison among all the accepted tools
 
