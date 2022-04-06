@@ -116,6 +116,8 @@ Participants must submit a paper presenting their tool at [IWCT2022](https://ics
 If a new tool (or an extension) is presented, the authors should present a paper describing the tool and the performance obtained with the models given as examples by the competition organizers (as full or short paper).
 If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper). If the paper is accepted, the organizers will contact the authors about how to provide the tool executable that will be run for the competition itself.
 
+- The results of the 1st edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/Competition2022.html).
+
 ## Important Dates
 - End-November 2021, the release of the benchmarks for training
 - Beginning of January 2022, submission of the papers and tools (with the results over the benchmarks)
