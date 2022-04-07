@@ -2,11 +2,6 @@
 
 In this page you can find the information and the results obtained by each participant to the first edition of the CT competition.
 
-### Competition organizers ###
-
-- For the University of Bergamo, Andrea Bombarda <andrea.bombarda@unibg.it>
-- for SBA Research, Michael Wagner <MWagner@sba-research.org> and Manuel Leithner <MLeithner@sba-research.org>
-
 ### Participants ###
 
 - **APPTS**: a tabu search-based optimization of Cas, uses ACTS for initial generation
@@ -23,4 +18,9 @@ For this edition of the CT competition:
 
 ### Results ###
 
-All the results reported into this section derives from the list of [best executions]((https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output_best.csv)).
+All the results reported into this section derives from the [list of best executions]((https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output_best.csv)).
+
+#### Validity and timeouts ####
+
+All the tools have reported at least one timeout or produced an invalid test suite (even if not in all the categories and all strenghts).
+The list of timed out instances for each category and each strength can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/TimedoutInstances.csv), while the one of invalid instances can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/InvalidInstances.csv).
