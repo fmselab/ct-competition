@@ -43,7 +43,7 @@ This section reports the overall ranking, considering the aggregated score of ea
 
 For completeness, we here report the score given for each strength.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Overall.jpg)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Overall.png)
 
 ## UNIFORM_BOOLEAN ranking ##
 
@@ -56,7 +56,7 @@ This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed 
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_BOOLEAN.jpg)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_BOOLEAN.png)
 
 ## UNIFORM_ALL ranking ##
 
@@ -69,7 +69,7 @@ This section reports the ranking for the UNIFORM_ALL category. The detailed data
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_ALL.jpg)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_ALL.png)
 
 ## MCA ranking ##
 
@@ -82,7 +82,7 @@ This section reports the ranking for the MCA category. The detailed data can be 
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCA.jpg)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCA.png)
 
 ## BOOLC ranking ##
 
@@ -94,7 +94,7 @@ This section reports the ranking for the BOOLC category. The detailed data can b
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/BOOLC.jpg)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/BOOLC.png)
 
 ## MCAC ranking ##
 
@@ -106,7 +106,7 @@ This section reports the ranking for the MCAC category. The detailed data can be
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCAC.jpg)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCAC.png)
 
 ## NUMC ranking ##
 
