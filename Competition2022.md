@@ -41,6 +41,10 @@ This section reports the overall ranking, considering the aggregated score of ea
 3. **IPO Solver** (967.5 pts)
 4. **pMEDICI** (566 pts)
 
+For completeness, we here report the score given for each strength.
+
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Overall.jpg)
+
 ## UNIFORM_BOOLEAN ranking ##
 
 This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_5.csv))
@@ -49,6 +53,10 @@ This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed 
 2. **IPO Solver** (468.5 pts)
 3. **APPTS** (452.5 pts)
 4. **pMEDICI** (274.5 pts)
+
+For completeness, we here report the score given for each strength for this category.
+
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_BOOLEAN.jpg)
 
 ## UNIFORM_ALL ranking ##
 
@@ -59,6 +67,10 @@ This section reports the ranking for the UNIFORM_ALL category. The detailed data
 3. **IPO Solver** (319 pts)
 4. **pMEDICI** (148.5 pts)
 
+For completeness, we here report the score given for each strength for this category.
+
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_ALL.jpg)
+
 ## MCA ranking ##
 
 This section reports the ranking for the MCA category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_5.csv))
@@ -68,6 +80,10 @@ This section reports the ranking for the MCA category. The detailed data can be 
 3. **IPO Solver** (273 pts)
 4. **pMEDICI** (107.5 pts)
 
+For completeness, we here report the score given for each strength for this category.
+
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCA.jpg)
+
 ## BOOLC ranking ##
 
 This section reports the ranking for the BOOLC category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_5.csv))
@@ -76,6 +92,10 @@ This section reports the ranking for the BOOLC category. The detailed data can b
 2. **APPTS** (216.5 pts)
 4. **pMEDICI** (40 pts)
 
+For completeness, we here report the score given for each strength for this category.
+
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/BOOLC.jpg)
+
 ## MCAC ranking ##
 
 This section reports the ranking for the MCAC category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_5.csv))
@@ -83,6 +103,10 @@ This section reports the ranking for the MCAC category. The detailed data can be
 1. **CAgen** (140 pts)
 2. **APPTS** (192 pts)
 4. **pMEDICI** (62 pts)
+
+For completeness, we here report the score given for each strength for this category.
+
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCAC.jpg)
 
 ## NUMC ranking ##
 
