@@ -28,6 +28,6 @@ The list of timed out instances for each category and each strength can be found
 ## Score - Time and Size ##
 
 The competition score has been given considering in an equal way the generation time and the test suite size. However, for completeness, we here report in a separate way the score given either only considering the time or the test suite size, distinguishing between different strengths.
-|  |  |
+| **Time score** | **Size score**  |
 |--|--|
 |![Time score](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Time.jpg)|![Size score](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Size.jpg)|
