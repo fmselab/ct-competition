@@ -1,4 +1,4 @@
-# Results - First edition of the CT Competition  ##
+# First edition of the CT Competition  ##
 
 In this page you can find the information and the results obtained by each participant to the first edition of the CT competition.
 
@@ -16,11 +16,13 @@ For this edition of the CT competition:
 - Strengths from 2 to 5 have been used
 - Each benchmark has been executed 3 times for each tool and strength (you can find the list of all the execution results [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output.csv)), and the best run has been selected for the attribution of the score (see [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output_best.csv) for the best executions list)
 
-## Results ###
+# Results #
 
 All the results reported into this section derives from the [list of best executions]((https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output_best.csv)).
 
-### Validity and timeouts ####
+## Validity and timeouts ##
 
 All the tools have reported at least one timeout or produced an invalid test suite (even if not in all the categories and all strenghts).
 The list of timed out instances for each category and each strength can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/TimedoutInstances.csv), while the one of invalid instances can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/InvalidInstances.csv).
+
+## Score - Time and Size ##
