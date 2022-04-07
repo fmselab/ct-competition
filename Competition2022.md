@@ -32,7 +32,7 @@ The competition score has been given considering in an equal way the generation 
 ![Time score](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Time.jpg)
 ![Size score](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Size.jpg)
 
-## Overall ranking ##
+## OVERALL ranking ##
 
 This section reports the overall ranking, considering the aggregated score of each category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_5.csv))
 
@@ -40,6 +40,15 @@ This section reports the overall ranking, considering the aggregated score of ea
 2. **APPTS** (1384 pts)
 3. **IPO Solver** (967.5 pts)
 4. **pMEDICI** (566 pts)
+
+## UNIFORM_BOOLEAN ranking ##
+
+This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_5.csv))
+
+1. **CAgen** (614.5 pts)
+2. **IPO Solver** (468.5 pts)
+3. **APPTS** (452.5 pts)
+4. **pMEDICI** (274.5 pts)
 
 ## UNIFORM_ALL ranking ##
 
