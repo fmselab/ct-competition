@@ -83,3 +83,7 @@ This section reports the ranking for the MCAC category. The detailed data can be
 1. **CAgen** (140 pts)
 2. **APPTS** (192 pts)
 4. **pMEDICI** (62 pts)
+
+## NUMC ranking ##
+
+None of the participants was able to deal with NUMC instances.
