@@ -18,7 +18,7 @@ For this edition of the CT competition:
 
 # Results #
 
-All the results reported into this section derives from the [list of best executions]((https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output_best.csv)).
+All the results reported into this section derives from the [list of best executions](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output_best.csv).
 
 ## Validity and timeouts ##
 
