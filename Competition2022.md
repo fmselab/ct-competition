@@ -40,3 +40,12 @@ This section reports the overall ranking, considering the aggregated score of ea
 2. **APPTS** (1384 pts)
 3. **IPO Solver** (967.5 pts)
 4. **pMEDICI** (566 pts)
+
+## UNIFORM_ALL ranking ##
+
+This section reports the ranking for the UNIFORM_ALL category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_5.csv))
+
+1. **CAgen** (482 pts)
+2. **APPTS** (326 pts)
+3. **IPO Solver** (319 pts)
+4. **pMEDICI** (148.5 pts)
