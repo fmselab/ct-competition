@@ -20,6 +20,8 @@ For this edition of the CT competition:
 
 All the results reported into this section derives from the [list of best executions](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/output_best.csv).
 
+The file containing all the CAs which have been analyzed for giving the score to each tool can be found [here](TODO).
+
 ## Validity and timeouts ##
 
 All the tools have reported at least one timeout or produced an invalid test suite (even if not in all the categories and all strenghts).
