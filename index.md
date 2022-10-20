@@ -3,6 +3,9 @@
 The area of Combinatorial Interaction testing has seen tremendous progress over the last years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on.
 With this competition, we want to motivate implementors to present their work to a broader audience and to compare it with that of others.
 
+## News: 2nd combinatorial testing competition
+
+The 2nd edition of the competition will be held togethere with IWCT2023 - the deadline will be around december 2022 / janaury 2023. Stay tuned!
 
 ## Call for Participation — Procedure
 
