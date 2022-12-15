@@ -3,6 +3,10 @@
 The area of Combinatorial Interaction testing has seen tremendous progress over the last years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on.
 With this competition, we want to motivate implementors to present their work to a broader audience and to compare it with that of others.
 
+## News: 2nd combinatorial testing competition
+
+The 2nd edition of the competition will be held togethere with IWCT2023 - the deadline will be around december 2022 / janaury 2023. Stay tuned!
+
 ## Call for Participation — Procedure
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
@@ -33,9 +37,6 @@ Different generators can compete in different categories, and the participants m
   - With boolean parameters and logical operators in constraints
   - With also enumerative parameters (MCA), and logical and equal operators in constraints
   - With also integer parameters, and logical, mathematical, and relational operators in constraints
-  - Models deriving from feature models translation
-  - Models deriving from industrial case studies
-  - Highly constrained models
 
 During tools evaluation, test models will be distributed as in the following table:
 
@@ -135,7 +136,3 @@ If you want to know more, or need clarification, do not hesitate to contact us:
 ### Sponsors/prize
 
 If you are interested to support the competition, please contact us.
-
-## History: Other editions of the combinatorial testing competition
-
-The rules and general information about the first edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/index2022.html).
