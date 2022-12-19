@@ -126,7 +126,7 @@ If an already existing tool is presented, the authors should present a paper int
 
 ## Important Dates
 - End-Dicember 2022, the release of the benchmarks for training
-- End-January 2023, submission of the tools and, possibly, papers with the results over the benchmarks
+- February 24th 2023, submission of the tools and, possibly, papers with the results over the benchmarks
 - April 2023, competition with new benchmarks and comparison among all the competing tools
 
 ### Organization
