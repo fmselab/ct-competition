@@ -119,10 +119,11 @@ If no tool is able to generate a full covering array for a given strength and mo
 
 ## Publication and Presentation of the Competition Candidates
 
-Participants may submit a paper presenting their tool at [IWCT2023](https://conf.researchr.org/home/icst-2023/iwct-2023) or just send the proposed tool to one of the competition organizers. 
+Participants may submit a paper presenting their tool at [IWCT2023](https://conf.researchr.org/home/icst-2023/iwct-2023) or just send the proposed tool to one of the competition organizers together with one or two pages describing the tool. 
 If a paper is submitted, it can present either a new CIT generator tool or an already existing one.
-If a new tool (or an extension) is presented, the authors should present a paper describing the tool and the performance obtained with the models given as examples by the competition organizers (as full or short paper).
-If an already existing tool is presented, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper). If the paper is accepted, the organizers will contact the authors about how to provide the tool executable that will be run for the competition itself.
+If a new tool (or an extension) is presented and a paper is submittet to IWCT 2023, the authors should present a paper describing the tool and the performance obtained with the models given as examples by the competition organizers (as full or short paper).
+If an already existing tool is presented and a paper is submittet to IWCT 2023, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper). 
+If the paper is accepted, the organizers will contact the authors about how to provide the tool executable that will be run for the competition itself.
 
 ## Important Dates
 - End-Dicember 2022, the release of the benchmarks for training
