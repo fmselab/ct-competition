@@ -55,7 +55,7 @@ During tools evaluation, test models will be distributed as in the following tab
 
 ### Input and output formats
 
-The benchmark models will be distributed in the CTWedge and ACTS formats. The tools must be able to process models in one of these formats (**you must specify whether your submission supports CTWedge or ACTS**) and produce its output in CSV on the standard output file descriptor (stdout). Examples of the inputs and outputs, together with the full grammar of CTWedge, can be found [here](https://fmselab.github.io/ct-competition/examples.html).
+The benchmark models will be distributed in the CTWedge, ACTS and PICT formats. The tools must be able to process models in one of these formats (**you must specify whether your submission supports CTWedge, ACTS, or PICT**) and produce its output in CSV on the standard output file descriptor (stdout). Examples of the inputs and outputs, together with the full grammar of CTWedge, can be found [here](https://fmselab.github.io/ct-competition/examples.html).
 
 ### Tool execution
 
