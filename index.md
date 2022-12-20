@@ -111,6 +111,8 @@ The tools will be ranked
 - For the total time, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
+**NEW**: we plan to evaluate addional measures (such as the t+1 coverage), but these will not contribute in the actual tool ranking. 
+
 Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
 For the strength, we will execute the tool with **strength t** starting from 2 to maximum 6.
