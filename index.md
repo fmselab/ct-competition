@@ -111,6 +111,8 @@ The tools will be ranked
 - For the total time, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
+**NEW**: we plan to evaluate addional measures (such as the t+1 coverage), but these will not contribute in the actual tool ranking. 
+
 Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
 For the strength, we will execute the tool with **strength t** starting from 2 to maximum 6.
@@ -119,15 +121,18 @@ If no tool is able to generate a full covering array for a given strength and mo
 
 ## Publication and Presentation of the Competition Candidates
 
-Participants may submit a paper presenting their tool at [IWCT2023](https://conf.researchr.org/home/icst-2023/iwct-2023) or just send the proposed tool to one of the competition organizers together with one or two pages describing the tool. 
-If a paper is submitted, it can present either a new CIT generator tool or an already existing one.
-If a new tool (or an extension) is presented and a paper is submittet to IWCT 2023, the authors should present a paper describing the tool and the performance obtained with the models given as examples by the competition organizers (as full or short paper).
-If an already existing tool is presented and a paper is submittet to IWCT 2023, the authors should present a paper introducing the tool and the performance obtained with the models given as examples by the competition organizers (short paper). 
-If the paper is accepted, the organizers will contact the authors about how to provide the tool executable that will be run for the competition itself.
+Participants may submit a tool for the 2nd edition of the CT-Competition in two different (mutually exclusive) ways:
+- By presenting their tool at [IWCT2023](https://conf.researchr.org/home/icst-2023/iwct-2023) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
+- By sending to one of the competition organizers the tool and a document consisting of one or two pages describing the tool and the performance obtained with the models given as examples by the competition organizers.
+
+In the former case, the paper describing the tool will be peer reviewed and, if accepted, will be a part of the Workshop proceedings. In the latter, the document will not be peer reviewed and will not be part of the regular proceedings. Moreover, in this second scenario, no novel approaches are required to participate.
+
+We emphasize that tools presented in papers that will not be accepted as a part of workshop proceedings can be submitted by following the second path.
 
 ## Important Dates
 - End-Dicember 2022, the release of the benchmarks for training
-- February 24th 2023, submission of the tools and, possibly, papers with the results over the benchmarks
+- January 20th 2023, submission of paper (short/full) for the IWCT workshop
+- February 24th 2023, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
 - April 2023, competition with new benchmarks and comparison among all the competing tools
 
 ### Organization
