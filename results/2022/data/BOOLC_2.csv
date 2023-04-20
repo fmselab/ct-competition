@@ -1,0 +1,10 @@
+ToolName,EntryType,Score
+appts,Size,84
+cagen,Size,52
+pmedici,Size,4
+appts,Time,42
+cagen,Time,90
+pmedici,Time,8
+appts,Overall,63.0
+cagen,Overall,71.0
+pmedici,Overall,6.0
