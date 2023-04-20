@@ -181,4 +181,18 @@ For completeness, we here report the plot showing the score given for each stren
 
 ## CNF ranking ##
 
+This section reports the ranking for the CNF category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/CNF_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/CNF_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/CNF_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/CNF_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/CNF_5.csv), [6](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/CNF_6.csv)).
+
+1. **CAgen** (473.5 pts)
+2. **ACTS** (364.0 pts)
+3. **CAopt** (210.0 pts)
+4. **MEDICI** (166.5 pts)
+5. **pMEDICI** (133.0 pts)
+6. **KALI** (0.0 pts)
+
+For completeness, we here report the plot showing the score given for each strength for this category.
+
+![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/CNF_PerStrength_Overall.png)
+
+
 ## HIGHLY_CONSTRAINED ranking ##
