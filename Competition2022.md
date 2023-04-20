@@ -31,8 +31,8 @@ The list of timed out instances for each category and each strength can be found
 
 The competition score has been given considering in an equal way the generation time and the test suite size. However, for completeness, we here report in a separate way the score given either only considering the time or the test suite size, by distinguishing between different strengths.
 
-![Time score](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Time.jpg)
-![Size score](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Size.jpg)
+![Time score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/Time.jpg)
+![Size score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/Size.jpg)
 
 ## OVERALL ranking ##
 
@@ -45,7 +45,7 @@ This section reports the overall ranking, considering the aggregated score of ea
 
 For completeness, we here report the score given for each strength.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/Overall.png)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/Overall.png)
 
 ## UNIFORM_BOOLEAN ranking ##
 
@@ -58,7 +58,7 @@ This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed 
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_BOOLEAN.png)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/UNIFORM_BOOLEAN.png)
 
 ## UNIFORM_ALL ranking ##
 
@@ -71,7 +71,7 @@ This section reports the ranking for the UNIFORM_ALL category. The detailed data
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_ALL.png)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/UNIFORM_ALL.png)
 
 ## MCA ranking ##
 
@@ -84,7 +84,7 @@ This section reports the ranking for the MCA category. The detailed data can be 
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCA.png)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/MCA.png)
 
 ## BOOLC ranking ##
 
@@ -96,7 +96,7 @@ This section reports the ranking for the BOOLC category. The detailed data can b
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/BOOLC.png)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/BOOLC.png)
 
 ## MCAC ranking ##
 
@@ -108,7 +108,7 @@ This section reports the ranking for the MCAC category. The detailed data can be
 
 For completeness, we here report the score given for each strength for this category.
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCAC.png)
+![](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/figs/MCAC.png)
 
 ## NUMC ranking ##
 
