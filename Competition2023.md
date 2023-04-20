@@ -198,3 +198,14 @@ For completeness, we here report the plot showing the score given for each stren
 ## HIGHLY_CONSTRAINED ranking ##
 
 This section reports the ranking for the HIGHLY_CONSTRAINED category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/HIGHLY_CONSTRAINED_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/HIGHLY_CONSTRAINED_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/HIGHLY_CONSTRAINED_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/HIGHLY_CONSTRAINED_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/HIGHLY_CONSTRAINED_5.csv), [6](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/HIGHLY_CONSTRAINED_6.csv)).
+
+1. **CAgen** (389.0 pts)
+2. **ACTS** (308.5 pts)
+3. **CAopt** (212.5 pts)
+4. **MEDICI** (209.5 pts)
+5. **pMEDICI** (135.0 pts)
+6. **KALI** (5.5 pts)
+
+For completeness, we here report the plot showing the score given for each strength for this category.
+
+![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/HIGHLY_CONSTRAINED_PerStrength_Overall.png)
