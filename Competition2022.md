@@ -100,7 +100,7 @@ For completeness, we here report the score given for each strength for this cate
 
 ## MCAC ranking ##
 
-This section reports the ranking for the MCAC category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_5.csv))
+This section reports the ranking for the MCAC category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/MCAC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/MCAC_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/MCAC_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/MCAC_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/MCAC_5.csv))
 
 1. **CAgen** (140 pts)
 2. **APPTS** (192 pts)
