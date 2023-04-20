@@ -37,7 +37,7 @@ The competition score has been given considering in an **equal way the generatio
 For each benchmarks, considering *n* competing tools, the score has been assigned in the following way:
 - Tools not completing the benchmark have received 0 points
 - Tools producing an invalid test suite have received 0 points
-- The other *k* tools, have been ordered in ascending order. The first received *k* points, the second *k-1*, and so on. In this way, producing a test suite always led to at least *1* point for the considered benchmark.
+- The other *k* tools have been ordered in ascending order. The first received *k* points, the second *k-1*, and so on. In this way, producing a test suite always led to at least *1* point for the considered benchmark.
 
 The described process, has been repeated for each bechmark, first considering the **generation time** and then the **test suite size**.
 To determine the final score for each tool (and potentially each category), the mean was calculated by combining the score achieved based solely on the generation time and the score based on the test suite size.
