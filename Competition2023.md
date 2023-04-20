@@ -20,7 +20,7 @@ For this edition of the CT competition:
 
 # Results #
 
-All the results reported into this section derives from the [list of best executions](https://github.com/fmselab/ct-competition/raw/gh-pages/output_best.csv).
+All the results reported into this section derives from the [list of best executions](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/output_best.csv).
 
 The file containing all the CAs which have been analyzed for giving the score to each tool can be found [here](#TODO).
 
