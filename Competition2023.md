@@ -89,20 +89,22 @@ For completeness, we here report the graph showing the score given for each stre
 ![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/UNIFORM_ALL_PerStrength_Overall.png)
 
 ## MCA ranking ##
-<!---
-This section reports the ranking for the MCA category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCA_5.csv))
 
-1. **CAgen** (423.5 pts)
-2. **APPTS** (298 pts)
-3. **IPO Solver** (273 pts)
-4. **pMEDICI** (107.5 pts)
+This section reports the ranking for the MCA category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCA_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCA_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCA_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCA_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCA_5.csv), [6](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCA_6.csv))
 
-For completeness, we here report the score given for each strength for this category.
+1. **CAgen** (591.5 pts)
+2. **ACTS** (468.0 pts)
+3. **pMEDICI** (232.0 pts)
+4. **CAopt** (211.0 pts)
+5. **MEDICI** (172.0 pts)
+6. **KALI** (157.5 pts)
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCA.png)
+For completeness, we here report the plot showing the score given for each strength for this category.
+
+![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/MCA_PerStrength_Overall.png)
 
 ## BOOLC ranking ##
-
+<!---
 This section reports the ranking for the BOOLC category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_5.csv))
 
 1. **CAgen** (280.5 pts)
