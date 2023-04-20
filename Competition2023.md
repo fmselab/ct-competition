@@ -134,6 +134,20 @@ For completeness, we here report the plot showing the score given for each stren
 ![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/MCAC_PerStrength_Overall.png)
 
 ## NUMC ranking ##
+
+This section reports the ranking for the NUMC category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/NUMC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/NUMC_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/NUMC_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/NUMC_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/NUMC_5.csv), [6](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/NUMC_6.csv)).
+
+In this case, only CAGen, ACTS, CAopt and KALI have been considered, since the other tools declared not to able to support the constraints available in the NUMC category.
+
+1. **CAgen** (272.0 pts)
+2. **ACTS** (216.0 pts)
+3. **CAopt** (131.0 pts)
+4. **KALI** (0.0 pts)
+
+For completeness, we here report the plot showing the score given for each strength for this category.
+
+![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/NUMC_PerStrength_Overall.png)
+
 <!---
 None of the participants was able to deal with NUMC instances.
 
