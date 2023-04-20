@@ -119,19 +119,22 @@ For completeness, we here report the plot showing the score given for each stren
 ![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/BOOLC_PerStrength_Overall.png)
 
 ## MCAC ranking ##
-<!---
-This section reports the ranking for the MCAC category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/MCAC_5.csv))
 
-1. **CAgen** (140 pts)
-2. **APPTS** (192 pts)
-4. **pMEDICI** (62 pts)
+This section reports the ranking for the MCAC category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCAC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCAC_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCAC_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCAC_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCAC_5.csv), [6](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/MCAC_6.csv))
 
-For completeness, we here report the score given for each strength for this category.
+1. **CAgen** (286.5 pts)
+2. **ACTS** (263.0 pts)
+3. **MEDICI** (178.5 pts)
+4. **CAopt** (172.0 pts)
+5. **pMEDICI** (100.0 pts)
+6. **KALI** (9.5 pts)
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/MCAC.png)
+For completeness, we here report the plot showing the score given for each strength for this category.
+
+![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/MCAC_PerStrength_Overall.png)
 
 ## NUMC ranking ##
-
+<!---
 None of the participants was able to deal with NUMC instances.
 
 ## INDUSTRIAL ranking ##
