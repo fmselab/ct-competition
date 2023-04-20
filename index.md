@@ -148,5 +148,5 @@ If you are interested to support the competition, please contact us.
 
 ## History: Other editions of the combinatorial testing competition
 
-- The rules and general information about the first edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/index2022.html).
-- The results of the 1st edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/Competition2022.html).
+- The rules and general information about the first edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/results/2022/index2022.html).
+- The results of the 1st edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2022/Competition2022.html).
