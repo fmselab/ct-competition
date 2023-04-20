@@ -44,7 +44,7 @@ The competition score has been given considering in an equal way the generation 
 
 ## OVERALL ranking ##
 
-This section reports the overall ranking, considering the aggregated score of each category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_5.csv))
+This section reports the overall ranking, considering the aggregated score of each category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_5.csv), [6](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/OVERALL_6.csv))
 
 
 1. **CAgen** (3666.0 pts)
@@ -59,20 +59,22 @@ For completeness, we here report the graph with the score given for each strengt
 ![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/OVERALL_PerStrength_Overall.png)
 
 ## UNIFORM_BOOLEAN ranking ##
-<!---!
-This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_5.csv))
 
-1. **CAgen** (614.5 pts)
-2. **IPO Solver** (468.5 pts)
-3. **APPTS** (452.5 pts)
-4. **pMEDICI** (274.5 pts)
+This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/UNIFORM_BOOLEAN_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/UNIFORM_BOOLEAN_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/UNIFORM_BOOLEAN_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/UNIFORM_BOOLEAN_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/UNIFORM_BOOLEAN_5.csv), [6](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/UNIFORM_BOOLEAN_6.csv))
 
-For completeness, we here report the score given for each strength for this category.
+1. **CAgen** (410.5 pts)
+2. **ACTS** (363.0 pts)
+3. **CAopt** (324.5 pts)
+4. **MEDICI** (280.0 pts)
+5. **KALI** (223.5 pts)
+6. **pMEDICI** (222.0 pts)
 
-![](https://github.com/fmselab/ct-competition/raw/gh-pages/imgs/UNIFORM_BOOLEAN.png)
+For completeness, we here report the graph showing the score given for each strength for this category.
+
+![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/UNIFORM_BOOLEAN_PerStrength_Overall.png)
 
 ## UNIFORM_ALL ranking ##
-
+<!---
 This section reports the ranking for the UNIFORM_ALL category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_ALL_5.csv))
 
 1. **CAgen** (482 pts)
