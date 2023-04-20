@@ -25,7 +25,7 @@ The file containing all the CAs which have been analyzed for giving the score to
 ## Validity and timeouts ##
 
 All the tools have reported at least one timeout or produced an invalid test suite (even if not in all the categories and all strenghts).
-The list of timed out instances for each category and each strength can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/TimedoutInstances.csv), while the one of invalid instances can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/InvalidInstances.csv).
+The list of timed out instances for each category and each strength can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/TimedoutInstances.csv), while the one of invalid instances can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/InvalidInstances.csv).
 
 ## Score - Time and Size ##
 
@@ -36,7 +36,7 @@ The competition score has been given considering in an equal way the generation 
 
 ## OVERALL ranking ##
 
-This section reports the overall ranking, considering the aggregated score of each category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/OVERALL_5.csv))
+This section reports the overall ranking, considering the aggregated score of each category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/OVERALL_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/OVERALL_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/OVERALL_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/OVERALL_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/OVERALL_5.csv))
 
 1. **CAgen** (1795.5 pts)
 2. **APPTS** (1384 pts)
