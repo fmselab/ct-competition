@@ -54,7 +54,7 @@ This section reports the overall ranking, considering the aggregated score of ea
 5. **pMEDICI** (1560.5 pts)
 6. **KALI** (537.0 pts)
 
-For completeness, we here report graph with the score given for each strength.
+For completeness, we here report the graph with the score given for each strength.
 
 ![Overall score](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/figs/OVERALL_PerStrength_Overall.png)
 
