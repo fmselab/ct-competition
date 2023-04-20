@@ -25,7 +25,7 @@ The file containing all the CAs which have been analyzed for giving the score to
 ## Validity and timeouts ##
 
 All the tools have reported at least one timeout or produced an invalid test suite (even if not in all the categories and all strenghts).
-The list of timed out instances for each category and each strength can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/TimedoutInstances.csv), while the one of invalid instances can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/InvalidInstances.csv).
+The list of timed out instances for each category and each strength can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/TimedoutInstances.csv), while the one of invalid instances can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/InvalidInstances.csv).
 
 ## Score - Time and Size ##
 
