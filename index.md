@@ -129,6 +129,9 @@ In the former case, the paper describing the tool will be peer reviewed and, if 
 
 We emphasize that tools presented in papers that will not be accepted as a part of workshop proceedings can be submitted by following the second path.
 
+- The results of the 2nd edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2023/Competition2023.html).
+
+
 ## Important Dates
 - End-Dicember 2022, the release of the benchmarks for training
 - January 20th 2023, submission of paper (short/full) for the IWCT workshop
@@ -149,4 +152,4 @@ If you are interested to support the competition, please contact us.
 ## History: Other editions of the combinatorial testing competition
 
 - The rules and general information about the first edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/results/2022/index2022.html).
-- The results of the 1st edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2022/Competition2022.html).
+  - The results of the 1st edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2022/Competition2022.html).
