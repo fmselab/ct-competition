@@ -88,7 +88,7 @@ For completeness, we here report the score given for each strength for this cate
 
 ## BOOLC ranking ##
 
-This section reports the ranking for the BOOLC category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/BOOLC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_5.csv))
+This section reports the ranking for the BOOLC category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/BOOLC_5.csv))
 
 1. **CAgen** (280.5 pts)
 2. **APPTS** (216.5 pts)
