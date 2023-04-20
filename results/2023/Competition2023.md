@@ -24,7 +24,7 @@ All the results reported into this section derives from the [list of best execut
 
 The file containing all the CAs which have been analyzed for giving the score to each tool can be found [here](#TODO).
 
-Finally, the slides used durint IWCT 2023 for presenting the results of the second edition of the CT competition are available [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/slides/CT-Competition-2023.pdf).
+Finally, the slides used during IWCT 2023 for presenting the results of the second edition of the CT competition are available [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/slides/CT-Competition-2023.pdf).
 
 ## Validity and timeouts ##
 
