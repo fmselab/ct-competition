@@ -49,7 +49,7 @@ For completeness, we here report the score given for each strength.
 
 ## UNIFORM_BOOLEAN ranking ##
 
-This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed data can be found [here](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_2.csv), [3](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_3.csv), [4](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_4.csv), [5](https://github.com/fmselab/CIT_Benchmark_Generator/blob/main/ToolEvaluator/data/UNIFORM_BOOLEAN_5.csv))
+This section reports the ranking for the UNIFORM_BOOLEAN category. The detailed data can be found [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/UNIFORM_BOOLEAN_allStrengths.csv) for all the strenghts (or, if interested in a specific strength, you can look at the specific file - [2](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/UNIFORM_BOOLEAN_2.csv), [3](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/UNIFORM_BOOLEAN_3.csv), [4](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/UNIFORM_BOOLEAN_4.csv), [5](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2022/data/UNIFORM_BOOLEAN_5.csv))
 
 1. **CAgen** (614.5 pts)
 2. **IPO Solver** (468.5 pts)
