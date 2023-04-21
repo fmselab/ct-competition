@@ -61,3 +61,7 @@ kali,4,INDUSTRIAL_,5
 medici,4,INDUSTRIAL_,2
 kali,4,HIGHLY_CONSTRAINED_,18
 kali,4,CNF_,14
+caopt,5,BOOLC_,1
+caopt,5,HIGHLY_CONSTRAINED_,1
+caopt,6,BOOLC_,1
+caopt,6,NUMC_,1

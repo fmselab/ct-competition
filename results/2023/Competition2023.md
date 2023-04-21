@@ -33,8 +33,16 @@ The list of timed out instances for each category and each strength can be found
 
 ## Score - Time and Size ##
 
+The competition score has been given considering in an **equal way the generation time and the test suite size**, as described in the following. 
+For each benchmarks, considering *n* competing tools, the score has been assigned in the following way:
+- Tools not completing the benchmark received 0 points
+- Tools producing an invalid test suite received 0 points
+- The other *k* tools have been ordered in ascending order. The first received *k* points, the second *k-1*, and so on. In this way, producing a test suite always led to at least *1* point for the considered benchmark.
 
-The competition score has been given considering in an equal way the generation time and the test suite size. However, for completeness, we here report in a separate way the score given either only considering the time or the test suite size, by distinguishing between different strengths.
+The described process, has been repeated for each bechmark, first considering the **generation time** and then the **test suite size**.
+To determine the final score for each tool (and potentially each category), the mean was calculated by combining the score achieved based solely on the generation time and the score based on the test suite size.
+
+In the following, for completeness, we here report in a separate way the score given either only considering the time or the test suite size, by distinguishing between different strengths.
 
 ### Time
 
