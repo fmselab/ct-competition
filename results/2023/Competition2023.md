@@ -4,12 +4,12 @@ In this page you can find the information and the results obtained by each parti
 
 ### Participants ###
 
-- **ACTS**: Java Implementation of IPO, one of the most used combinatorial test generation tools. Executed with default settings (IPOG with MFT);
-- **CAgen**: a multithreaded FIPOG implementation written in Rust;
-- **CAopt**: a sampling and an optimization phase, based on a SAT solver;
-- **KALI**: a java multi-thread tool exploiting SMT solvers;
-- **MEDICI**: a C++ tool for combinatorial test generation based on the use of Multi-Valued Decision Diagrams;
-- **pMEDICI**: a java multi-thread implementation of the MEDICI tool, based on Multi-valued Decision Diagrams;
+- **ACTS**: Java Implementation of IPO, one of the most used combinatorial test generation tools. Executed with default settings (IPOG with MFT) - [tool description](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/documents/acts_doc.pdf);
+- **CAgen**: a multithreaded FIPOG implementation written in Rust - [tool description](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/documents/cagen_doc.pdf);
+- **CAopt**: a sampling and an optimization phase, based on a SAT solver - [tool description](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/documents/CAopt_doc.pdf);
+- **KALI**: a java multi-thread tool exploiting SMT solvers  - [tool description](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/documents/KALI_doc.pdf);
+- **MEDICI**: a C++ tool for combinatorial test generation based on the use of Multi-Valued Decision Diagrams  - [tool description](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/documents/MEDICI_doc.pdf);
+- **pMEDICI**: a java multi-thread implementation of the MEDICI tool, based on Multi-valued Decision Diagrams - (*tool description out soon with IWCT proceedings*);
 
 ### Benchmarks and execution rules ###
 
@@ -22,7 +22,7 @@ For this edition of the CT competition:
 
 All the results reported into this section derives from the [list of best executions](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/data/output_best.csv).
 
-The file containing all the CAs which have been analyzed for giving the score to each tool can be found [here](#TODO).
+The file containing all the CAs which have been analyzed for giving the score to each tool can be found [here](https://zenodo.org/record/7852557).
 
 Finally, the slides used during IWCT 2023 for presenting the results of the second edition of the CT competition are available [here](https://github.com/fmselab/ct-competition/raw/gh-pages/results/2023/slides/CT-Competition-2023.pdf).
 
