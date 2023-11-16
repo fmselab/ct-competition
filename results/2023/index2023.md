@@ -7,8 +7,8 @@ With this competition, we want to motivate implementors to present their work to
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases:
-- a **training phase**, in which example benchmarks are given to the tool developers (starting from Dec 2023)
-  - the example benchmarks can be found here: *TBD*
+- a **training phase**, in which example benchmarks are given to the tool developers (starting from end-Dec 2022)
+  - the example benchmarks can be found here: [ACTS](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ACTS2023.zip), [CTWedge](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/CTWedge2023.zip) or [PICT](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/PICT2023.zip). 
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
@@ -37,7 +37,6 @@ Different generators can compete in different categories, and the participants m
   - Models deriving from industrial case studies (`INDUSTRIAL`)
   - Highly constrained models, with validity ratio < 1% (`HIGHLY_CONSTRAINED`)
   - Models with constraints in CNF (`CNF`)
-  - Models with constraints expressed as Forbidden Tuples (`FT`)
 
 During tools evaluation, test models will be distributed as in the following table:
 
@@ -52,8 +51,7 @@ During tools evaluation, test models will be distributed as in the following tab
 | `FM` | MCA | As required in the corresponding feature model from which the benchmark derives | -- | --  | 15 |
 | `INDUSTRIAL` | As required by the industrial case study from which the benchmark derives  | As required by the industrial case study from which the benchmark derives | -- | -- | 15 | 
 | `HIGHLY_CONSTRAINED` | MCA | randomly chosen between AND, OR, <=>, NOT, =>, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), != |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 30 |
-| `CNF` | MCA | in CNF randomly chosen between AND, OR, NOT, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), != |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 15 |
-| **new** `FT` | MCA | expressed as Forbidden tuples |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 15 |
+| `CNF` | MCA | in CNF randomly chosen between AND, OR, NOT, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), != |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 30 |
 
 ### Input and output formats
 
@@ -67,7 +65,7 @@ Generators will be executed inside a Docker container provided by the competitio
 - 2xSSD Samsung 850 (256GB each) in RAID1
 - OS: Ubuntu 18.04.6 LTS
 
-The results (size, generation time, completeness, and validity) will be gathered through the generation of test suites from the test models for each category, randomly generated.
+The results (size, generation time, completeness, and validity) will be gathered through the generation of test suites from 50 test models for each category, randomly generated.
 
 Your submission will be invoked as follows:
 ```
@@ -102,9 +100,8 @@ Failure to adhere to these conditions will result in immediate disqualification 
 
 Each tool will be evaluated by considering:
 
-- Test suite size (40% of the final score)
-- Test suite generation time (40% of the final score)
-- Memory usage (20% of the final score)
+- Test suite size (50% of the final score)
+- Test suite generation time (50% of the final score)
 - Test suite completeness and validity (required for all the test suites)
 
 Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or incomplete test suite produced for a model will be marked as not correct and its score will be considered like the tool has been unable to complete the generation of the test suite for that model.
@@ -112,10 +109,9 @@ Note that the test suite validity and completeness will be mandatory for the eva
 The tools will be ranked
 - For the total size of the test suites, in a decreasing order
 - For the total time, in an increasing order
-- **NEW** For the used memory, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
-**NEW**: we plan to evaluate addional measures (such as the t+1 coverage) and discuss them in the results, but these will not contribute in the actual tool ranking. 
+**NEW**: we plan to evaluate addional measures (such as the t+1 coverage), but these will not contribute in the actual tool ranking. 
 
 Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
@@ -125,27 +121,29 @@ If no tool is able to generate a full covering array for a given strength and mo
 
 ## Publication and Presentation of the Competition Candidates
 
-Participants may submit a tool for the 3rd edition of the CT-Competition in two different (mutually exclusive) ways:
-- By presenting their tool at [IWCT2024](https://conf.researchr.org/home/icst-2024/iwct-2024) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
+Participants may submit a tool for the 2nd edition of the CT-Competition in two different (mutually exclusive) ways:
+- By presenting their tool at [IWCT2023](https://conf.researchr.org/home/icst-2023/iwct-2023) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
 - By sending to one of the competition organizers the tool and a document consisting of one or two pages describing the tool and the performance obtained with the models given as examples by the competition organizers.
 
 In the former case, the paper describing the tool will be peer reviewed and, if accepted, will be a part of the Workshop proceedings. In the latter, the document will not be peer reviewed and will not be part of the regular proceedings. Moreover, in this second scenario, no novel approaches are required to participate.
 
 We emphasize that tools presented in papers that will not be accepted as a part of workshop proceedings can be submitted by following the second path.
 
+- The results of the 2nd edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2023/Competition2023.html).
+
 
 ## Important Dates
-- Dicember 2023, the release of the benchmarks for training
-- January 29th 2024, submission of paper (short/full) for the IWCT workshop
-- February 26th 2024, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
-- May 2024, competition with new benchmarks and comparison among all the competing tools
+- End-Dicember 2022, the release of the benchmarks for training
+- January 20th 2023, submission of paper (short/full) for the IWCT workshop
+- February 24th 2023, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
+- April 2023, competition with new benchmarks and comparison among all the competing tools
 
 ### Organization
 
 If you want to know more, or need clarification, do not hesitate to contact us:
 
 - For the University of Bergamo, Andrea Bombarda <andrea.bombarda@unibg.it>
-- for SBA Research, Michael Wagner <MWagner@sba-research.org> and Manel Leithner <MLeithner@sba-research.org>
+- for SBA Research, Michael Wagner <MWagner@sba-research.org>
 
 ### Sponsors/prize
 
@@ -155,6 +153,3 @@ If you are interested to support the competition, please contact us.
 
 - The rules and general information about the first edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/results/2022/index2022.html).
   - The results of the 1st edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2022/Competition2022.html).
-
-- The rules and general information about the second edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/results/2023/index2023.html).
-  - The results of the 2nd edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2023/Competition2023.html).
