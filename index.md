@@ -53,7 +53,7 @@ During tools evaluation, test models will be distributed as in the following tab
 | `INDUSTRIAL` | As required by the industrial case study from which the benchmark derives  | As required by the industrial case study from which the benchmark derives | -- | -- | 15 | 
 | `HIGHLY_CONSTRAINED` | MCA | randomly chosen between AND, OR, <=>, NOT, =>, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), != |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 30 |
 | `CNF` | MCA | in CNF randomly chosen between AND, OR, NOT, = (both *x*=*C* and *x*=*y*, where *x* and *y* are parameters and *C* a constant of *x*), != |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 15 |
-| **new** `FT` | MCA | expressed as Forbidden tuples |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 15 |
+| **!!NEW!!** `FT` | MCA | expressed as Forbidden tuples |  *k*: number of parameters<br /><br /> *v\[\]*: array containing the number of elements for each parameter<br /><br /> *c*: number of constraints<br /><br />*d\[\]*: array containing the complexity of each of the *c* constraints | *k*: random in the interval \[6, 30\]<br /><br /> each element of *v\[\]*: random in the interval \[2,15\]<br /><br /> *c*: random in the interval \[1, 100\]<br /><br /> each element of *d\[\]*: random in the interval \[1, 20\] | 15 |
 
 ### Input and output formats
 
@@ -112,10 +112,10 @@ Note that the test suite validity and completeness will be mandatory for the eva
 The tools will be ranked
 - For the total size of the test suites, in a decreasing order
 - For the total time, in an increasing order
-- **NEW** For the used memory, in an increasing order
+- **!!NEW!!** For the used memory, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
-**NEW**: we plan to evaluate addional measures (such as the t+1 coverage) and discuss them in the results, but these will not contribute in the actual tool ranking. 
+**!!NEW!!**: we plan to evaluate addional measures (such as the t+1 coverage) and discuss them in the results, but these will not contribute in the actual tool ranking. 
 
 Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
