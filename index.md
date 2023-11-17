@@ -1,6 +1,6 @@
 ## Objective
 
-The area of Combinatorial Interaction testing has seen tremendous progress over the last years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on.
+The area of Combinatorial Interaction testing has seen tremendous progress over the last few years. Many tools have been developed but a comparison among algorithms and techniques is difficult to carry on.
 With this competition, we want to motivate implementors to present their work to a broader audience and to compare it with that of others.
 
 ## Call for Participation — Procedure
@@ -12,11 +12,11 @@ The competition consists of two phases:
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
-*In order to easily include in the competition both open source and commercial tools, participants have to submit only the executable and no submission of the source code is required.*
+*In order to easily include in the competition both open source and commercial tools, participants have to submit only the executable, and no submission of the source code is required.*
 
 ### Benchmarks characteristics
 
-*Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains and constraints, or taken from well known test sets.
+*Benchmarks* used for tool comparison will be **randomly** generated, both in terms of parameters, domains, and constraints or taken from well-known test sets.
 However, the random generation will be guided by setting the number of variables (included between a lower and an upper limit) and their types, and the number (included between a lower and an upper limit) and characteristics of constraints (like depth of logical operators, type of operators, ...).
 
 The code of the benchmark generator is available [here](https://github.com/fmselab/CIT_Benchmark_Generator), together with benchmarks used during the previous editions of the competition.
@@ -57,7 +57,7 @@ During tools evaluation, test models will be distributed as in the following tab
 
 ### Input and output formats
 
-The benchmark models will be distributed in the CTWedge, ACTS and PICT formats. The tools must be able to process models in one of these formats (**you must specify whether your submission supports CTWedge, ACTS, or PICT**) and produce its output in CSV on the standard output file descriptor (stdout). Examples of the inputs and outputs, together with the full grammar of CTWedge, can be found [here](https://fmselab.github.io/ct-competition/examples.html).
+The benchmark models will be distributed in the CTWedge, ACTS, and PICT formats. The tools must be able to process models in one of these formats (**you must specify whether your submission supports CTWedge, ACTS, or PICT**) and produce its output in CSV on the standard output file descriptor (stdout). Examples of the inputs and outputs, together with the full grammar of CTWedge, can be found [here](https://fmselab.github.io/ct-competition/examples.html).
 
 ### Tool execution
 
@@ -91,7 +91,7 @@ If you are facing issues with providing any of these formats, please contact the
 If you submit an executable, you must not make any assumptions about libraries or versions thereof available in the Docker container.
 This means that if your submission requires any shared libraries besides libc (e.g. boost or GMP), you should submit a statically linked version (details on this process depend on your compiler and build system).
 
-To work around issues with more complex dependencies (such as Java), you can instead prepare a Docker container, upload it to a repository and submit a docker-compose file along with the path to the executable in the Docker container (if your docker-compose file includes multiple images, please also specify which container holds the executable). We will manually audit submitted docker-compose files.
+To work around issues with more complex dependencies (such as Java), you can instead prepare a Docker container, upload it to a repository, and submit a docker-compose file along with the path to the executable in the Docker container (if your docker-compose file includes multiple images, please also specify which container holds the executable). We will manually audit submitted docker-compose files.
 
 All invocations of your executable will follow the format described above. This means that if you require additional command line flags (e.g. `java -Xmx 65500 -jar my_ca_generator.jar -Ddoi=5`), you must write a wrapper that takes the arguments described above (strength and input file) and invokes your actual executable.
 
@@ -107,17 +107,17 @@ Each tool will be evaluated by considering:
 - Memory usage (20% of the final score)
 - Test suite completeness and validity (required for all the test suites)
 
-Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or incomplete test suite produced for a model will be marked as not correct and its score will be considered like the tool has been unable to complete the generation of the test suite for that model.
+Note that the test suite validity and completeness will be mandatory for the evaluation of how the tool performs over a benchmark model: an invalid or incomplete test suite produced for a model will be marked as incorrect and its score will be considered like the tool has been unable to complete the generation of the test suite for that model.
 
 The tools will be ranked
-- For the total size of the test suites, in a decreasing order
+- For the total size of the test suites, in decreasing order
 - For the total time, in an increasing order
 - **!!NEW!!** For the used memory, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
-**!!NEW!!**: we plan to evaluate addional measures (such as the t+1 coverage) and discuss them in the results, but these will not contribute in the actual tool ranking. 
+**!!NEW!!**: we plan to evaluate additional measures (such as the t+1 coverage) and discuss them in the results, but these will not contribute in the actual tool ranking. 
 
-Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
+Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case, the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
 For the strength, we will execute the tool with **strength t** starting from 2 to maximum 6.
 
@@ -129,13 +129,13 @@ Participants may submit a tool for the 3rd edition of the CT-Competition in two 
 - By presenting their tool at [IWCT2024](https://conf.researchr.org/home/icst-2024/iwct-2024) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
 - By sending to one of the competition organizers the tool and a document consisting of one or two pages describing the tool and the performance obtained with the models given as examples by the competition organizers.
 
-In the former case, the paper describing the tool will be peer reviewed and, if accepted, will be a part of the Workshop proceedings. In the latter, the document will not be peer reviewed and will not be part of the regular proceedings. Moreover, in this second scenario, no novel approaches are required to participate.
+In the former case, the paper describing the tool will be peer-reviewed and, if accepted, will be a part of the Workshop proceedings. In the latter, the document will not be peer-reviewed and will not be part of the regular proceedings. Moreover, in this second scenario, no novel approaches are required to participate.
 
 We emphasize that tools presented in papers that will not be accepted as a part of workshop proceedings can be submitted by following the second path.
 
 
 ## Important Dates
-- Dicember 2023, the release of the benchmarks for training
+- December 2023, the release of the benchmarks for training
 - January 29th 2024, submission of paper (short/full) for the IWCT workshop
 - February 26th 2024, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
 - May 2024, competition with new benchmarks and comparison among all the competing tools
@@ -145,11 +145,11 @@ We emphasize that tools presented in papers that will not be accepted as a part 
 If you want to know more, or need clarification, do not hesitate to contact us:
 
 - For the University of Bergamo, Andrea Bombarda <andrea.bombarda@unibg.it>
-- for SBA Research, Michael Wagner <MWagner@sba-research.org> and Manel Leithner <MLeithner@sba-research.org>
+- for SBA Research, Michael Wagner <MWagner@sba-research.org> and Manuel Leithner <MLeithner@sba-research.org>
 
 ### Sponsors/prize
 
-If you are interested to support the competition, please contact us.
+If you are interested in supporting the competition, please contact us.
 
 ## History: Other editions of the combinatorial testing competition
 
