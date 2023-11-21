@@ -7,7 +7,7 @@ With this competition, we want to motivate implementors to present their work to
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases:
-- a **training phase**, in which example benchmarks are given to the tool developers (starting from Dec 2023)
+- a **training phase**, in which example benchmarks are given to the tool developers (starting from end Nov. 2023)
   - the example benchmarks can be found here: [ACTS](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ACTS2024.zip), [CTWedge](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/CTWedge2024.zip) or [PICT](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/PICT2024.zip).
 - and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
