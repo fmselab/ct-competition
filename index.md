@@ -135,9 +135,9 @@ We emphasize that tools presented in papers that will not be accepted as a part 
 
 
 ## Important Dates
-- December 2023, the release of the benchmarks for training
+- November 22nd 2023, the release of the benchmarks for training
 - January 29th 2024, submission of paper (short/full) for the IWCT workshop
-- February 26th 2024, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
+- March 31st 2024, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
 - May 2024, competition with new benchmarks and comparison among all the competing tools
 
 ### Organization
