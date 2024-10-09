@@ -124,7 +124,7 @@ If no tool is able to generate a full covering array for a given strength and mo
 
 ## Publication and Presentation of the Competition Candidates
 
-Participants may submit a tool for the 3rd edition of the CT-Competition in two different (mutually exclusive) ways:
+Participants may submit a tool for the 4th edition of the CT-Competition in two different (mutually exclusive) ways:
 - By presenting their tool at [IWCT2025](https://conf.researchr.org/home/icst-2025/iwct-2025) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
 - By sending to one of the competition organizers the tool and a document consisting of one or two pages describing the tool and the performance obtained with the models given as examples by the competition organizers.
 
