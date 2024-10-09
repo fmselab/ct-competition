@@ -7,9 +7,8 @@ With this competition, we want to motivate implementors to present their work to
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases:
-- a **training phase**, in which example benchmarks are given to the tool developers (starting from end Nov. 2023)
-  - the example benchmarks can be found here: [ACTS](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/ACTS2024.zip), [CTWedge](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/CTWedge2024.zip) or [PICT](https://github.com/fmselab/ct-competition/raw/gh-pages/examples/PICT2024.zip).
-- and an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
+- a **training phase**, in which example benchmarks are given to the tool developers (starting from end Nov. 2025)
+- an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
 *In order to easily include in the competition both open source and commercial tools, participants have to submit only the executable, and no submission of the source code is required.*
@@ -112,10 +111,10 @@ Note that the test suite validity and completeness will be mandatory for the eva
 The tools will be ranked
 - For the total size of the test suites, in decreasing order
 - For the total time, in an increasing order
-- **!!NEW!!** For the used memory, in an increasing order
+- For the used memory, in an increasing order
 Supposing that there will be n tools competing, the first tool in the rank will receive n points, the second n-1, and so on.
 
-**!!NEW!!**: we plan to evaluate additional measures (such as the t+1 coverage) and discuss them in the results, but these will not contribute in the actual tool ranking. 
+**!!NEW!!**: We plan to evaluate additional measures (such as the t+1 coverage) and discuss them in the results, but these will not contribute in the actual tool ranking. 
 
 Having fixed the *timeout* (300 seconds), some tools may not complete the computation of the test suite for certain models. In this case, the size and the time (for the ranking) will be considered as follows: if a tool X does not complete the benchmark Y, the greatest time required by the other tools for Y (+1) and the greatest size for Y (+1) will be assigned to X.
 
@@ -126,7 +125,7 @@ If no tool is able to generate a full covering array for a given strength and mo
 ## Publication and Presentation of the Competition Candidates
 
 Participants may submit a tool for the 3rd edition of the CT-Competition in two different (mutually exclusive) ways:
-- By presenting their tool at [IWCT2024](https://conf.researchr.org/home/icst-2024/iwct-2024) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
+- By presenting their tool at [IWCT2025](https://conf.researchr.org/home/icst-2025/iwct-2025) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
 - By sending to one of the competition organizers the tool and a document consisting of one or two pages describing the tool and the performance obtained with the models given as examples by the competition organizers.
 
 In the former case, the paper describing the tool will be peer-reviewed and, if accepted, will be a part of the Workshop proceedings. In the latter, the document will not be peer-reviewed and will not be part of the regular proceedings. Moreover, in this second scenario, no novel approaches are required to participate.
@@ -135,10 +134,10 @@ We emphasize that tools presented in papers that will not be accepted as a part 
 
 
 ## Important Dates
-- November 22nd 2023, the release of the benchmarks for training
-- January 29th 2024, submission of paper (short/full) for the IWCT workshop
-- March 31st 2024, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
-- May 2024, competition with new benchmarks and comparison among all the competing tools
+- TBD, the release of the benchmarks for training
+- TBD, submission of paper (short/full) for the IWCT workshop
+- TBD, submission of the tools and, if the paper has not been previously submitted and accepted, documents describing the tools with the results over the benchmarks
+- TBD, competition with new benchmarks and comparison among all the competing tools
 
 ### Organization
 
@@ -158,3 +157,5 @@ If you are interested in supporting the competition, please contact us.
 
 - The rules and general information about the second edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/results/2023/index2023.html).
   - The results of the 2nd edition of the CT Competition are published [here](https://fmselab.github.io/ct-competition/results/2023/Competition2023.html).
+
+- The rules and general information about the third edition of the combinatorial testing competitions are published [here](https://fmselab.github.io/ct-competition/results/2024/index2024.html).
