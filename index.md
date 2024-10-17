@@ -7,7 +7,7 @@ With this competition, we want to motivate implementors to present their work to
 
 The competition compares state-of-the-art tools for generating combinatorial test suites with respect to the generation time and test suite size.  
 The competition consists of two phases:
-- a **training phase**, in which example benchmarks are given to the tool developers (starting from end Nov. 2025)
+- a **training phase**, in which example benchmarks are given to the tool developers (starting from end Nov. 2024)
 - an **evaluation** phase, in which all participating CT tools will be executed on benchmark test tasks, and their performances are measured. The competition is performed (some days before the workshop) and presented during the IWCT workshop.
 
 Researchers from both academia and industry are invited to submit their tools.
@@ -125,13 +125,9 @@ If no tool is able to generate a full covering array for a given strength and mo
 ## Publication and Presentation of the Competition Candidates
 
 Participants may submit a tool for the 4th edition of the CT-Competition in two different (mutually exclusive) ways:
-- By presenting their tool at [IWCT2025](https://conf.researchr.org/home/icst-2025/iwct-2025) with a full or short paper, containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
-- By sending to one of the competition organizers the tool and a document consisting of one or two pages describing the tool and the performance obtained with the models given as examples by the competition organizers.
+- By presenting their tool at [IWCT2025](https://conf.researchr.org/home/icst-2025/iwct-2025) as full paper, short paper, poster, or journal first paper containing a description of the tool and the performance obtained with the models given as examples by the competition organizers.
 
-In the former case, the paper describing the tool will be peer-reviewed and, if accepted, will be a part of the Workshop proceedings. In the latter, the document will not be peer-reviewed and will not be part of the regular proceedings. Moreover, in this second scenario, no novel approaches are required to participate.
-
-We emphasize that tools presented in papers that will not be accepted as a part of workshop proceedings can be submitted by following the second path.
-
+The contribution describing the tool will be peer-reviewed and, if accepted, will be a part of the Workshop proceedings. 
 
 ## Important Dates
 - TBD, the release of the benchmarks for training
