@@ -139,7 +139,7 @@ The contribution describing the tool will be peer-reviewed and, if accepted, wil
 
 If you want to know more, or need clarification, do not hesitate to contact us:
 
-- For the University of Bergamo, Andrea Bombarda <andrea.bombarda@unibg.it>
+- For the University of Bergamo, Andrea Bombarda <andrea.bombarda@unibg.it> and Nico Pellegrinelli <nico.pellegrinelli@guest.unibg.it>
 - for SBA Research, Michael Wagner <MWagner@sba-research.org> and Manuel Leithner <MLeithner@sba-research.org>
 
 ### Sponsors/prize
